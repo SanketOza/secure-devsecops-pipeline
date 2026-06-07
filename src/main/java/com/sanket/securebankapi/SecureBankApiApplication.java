@@ -9,8 +9,8 @@ public class SecureBankApiApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SecureBankApiApplication.class, args);
 
-		String secret = "AWS_SECRET_ACCESS_KEY=ABCD123456789SECRET";
-
+		String password = "SuperSecretPassword123!";
+		String githubToken = "ghp_abcdefghijklmnopqrstuvwxyz1234567890";
 	}
 
 }
